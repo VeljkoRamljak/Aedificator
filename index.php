@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- ==============================
     Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
+    Version:        0.9
+    Author:         BluCyb
     Primary use:    Corporate, Business Themes.
     Email:          support@keenthemes.com
     Follow:         http://www.twitter.com/keenthemes
