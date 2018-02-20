@@ -614,7 +614,7 @@
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">aedificator</a></p>
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.linkedin.com/in/veljko-ramljak-baa280159">BluCyb</a></p>
                     </div>
                 </div>
                 <!--// end row -->
