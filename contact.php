@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- ==============================
     Project:        Aedificator - rad s poduzetnicima za 3. godinu računarstva u Dubrovniku
-    Version:        1.0
+    Version:        0.9
     Author:         KeenThemes
     Primary use:    Corporate, Business Themes.
     Email:          support@keenthemes.com
