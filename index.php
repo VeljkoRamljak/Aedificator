@@ -2,13 +2,13 @@
 <!-- ==============================
     Project:        Aedificator - rad s poduzetnicima za 3. godinu računarstva u Dubrovniku
     Version:        0.9
-    Author:         BluCyb
+    Author:         aedificator
     Primary use:    Corporate, Business Themes.
     Email:          velja10@hotmail.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+    Follow:         http://www.twitter.com/aedificator
+    Like:           http://www.facebook.com/aedificator
+    Website:        http://www.aedificator.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=aedificator
 ================================== -->
 <html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
@@ -21,8 +21,8 @@
 		</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+        <meta content="Aedificator" name="description"/>
+        <meta content="BluCyb" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -105,10 +105,12 @@
                             <div class="margin-b-40">
                                 <h1 class="carousel-title">Aedificator</h1>
                                 <p> Dobrodošli na našu stranicu!<br>
-									Okrenuti izazovima današnjice nastojimo se prilagoditi tržištu. Paletom naših djelatnosti<br>
-									omogućavamo Vam započinjanje i završetak svih poslova vezanih uz kvadrate Vašeg doma.<br>
-									Uvažavajući Vaše zahtjeve uspješno završavamo povjerene poslove.<br/>
-									Nadamo se uspješnoj suradnji!<br>
+									Okrenuti izazovima današnjice nastojimo se<br>
+									prilagoditi tržištu. Paletom naših djelatnosti<br>
+									omogućavamo Vam započinjanje i završetak<br>
+									svih poslova vezanih uz kvadrate Vašeg doma.<br>
+									Uvažavajući Vaše zahtjeve uspješno završavamo<br/>
+									povjerene poslove. Nadamo se uspješnoj suradnji!<br>
 									S poštovanjem<br>
 									Miroslav Bego, ovlašteni inženjer građevinarstva</p>
                             </div>
@@ -120,13 +122,15 @@
                     <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
                     <div class="container">
                         <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">Aedificator</h2>
+                             <div class="margin-b-40">
+                                <h1 class="carousel-title">Aedificator</h1>
                                 <p> Dobrodošli na našu stranicu!<br>
-									Okrenuti izazovima današnjice nastojimo se prilagoditi tržištu. Paletom naših djelatnosti<br>
-									omogućavamo Vam započinjanje i završetak svih poslova vezanih uz kvadrate Vašeg doma.<br>
-									Uvažavajući Vaše zahtjeve uspješno završavamo povjerene poslove.<br/>
-									Nadamo se uspješnoj suradnji!<br>
+									Okrenuti izazovima današnjice nastojimo se<br>
+									prilagoditi tržištu. Paletom naših djelatnosti<br>
+									omogućavamo Vam započinjanje i završetak<br>
+									svih poslova vezanih uz kvadrate Vašeg doma.<br>
+									Uvažavajući Vaše zahtjeve uspješno završavamo<br/>
+									povjerene poslove. Nadamo se uspješnoj suradnji!<br>
 									S poštovanjem<br>
 									Miroslav Bego, ovlašteni inženjer građevinarstva</p>
                             </div>
@@ -139,7 +143,7 @@
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
-        <!-- Service -->
+        <!-- Service 
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
                 <div class="row row-space-1 margin-b-2">
@@ -186,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row 
 
                 <div class="row row-space-1">
                     <div class="col-sm-4 sm-margin-b-2">
@@ -232,10 +236,10 @@
                         </div>
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row 
             </div>
         </div>
-        <!-- End Service -->
+        
 
         <!-- Latest Products -->
         <div class="content-lg container">
@@ -246,6 +250,8 @@
                 </div>
             </div>
             <!--// end row -->
+			<!-- End Service -->
+			
 
             <div class="row">
                 <!-- Latest Products -->
@@ -307,7 +313,7 @@
             <div class="content-lg container">
                 <!-- Swiper Clients -->
                 <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
+                    <!-- Swiper Wrapper --
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
@@ -335,15 +341,15 @@
         </div>
         <!-- End Clients -->
 
-        <!-- Testimonials -->
+        <!-- Testimonials --
         <div class="content-lg container">
             <div class="row">
                 <div class="col-sm-9">
                     <h2>Customer Reviews</h2>
 
-                    <!-- Swiper Testimonials -->
+                    <!-- Swiper Testimonials --
                     <div class="swiper-slider swiper-testimonials">
-                        <!-- Swiper Wrapper -->
+                        <!-- Swiper Wrapper --
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
@@ -370,22 +376,22 @@
                         </div>
                         <!-- End Swiper Wrapper -->
 
-                        <!-- Pagination -->
+                        <!-- Pagination --
                         <div class="swiper-testimonials-pagination"></div>
                     </div>
-                    <!-- End Swiper Testimonials -->
+                    <!-- End Swiper Testimonials --
                 </div>
             </div>
-            <!--// end row -->
+            <!--// end row --
         </div>
         <!-- End Testimonials -->
 
-        <!-- Pricing -->
+        <!-- Pricing --
         <div class="bg-color-sky-light">
             <div class="content-lg container">
                 <div class="row row-space-1">
                     <div class="col-sm-4 sm-margin-b-2">
-                        <!-- Pricing -->
+                        <!-- Pricing --
                         <div class="pricing">
                             <div class="margin-b-30">
                                 <i class="pricing-icon icon-chemistry"></i>
@@ -399,10 +405,10 @@
                             </ul>
                             <a href="pricing.php" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                         </div>
-                        <!-- End Pricing -->
+                        <!-- End Pricing --
                     </div>
                     <div class="col-sm-4 sm-margin-b-2">
-                        <!-- Pricing -->
+                        <!-- Pricing --
                         <div class="pricing pricing-active">
                             <div class="margin-b-30">
                                 <i class="pricing-icon icon-badge"></i>
@@ -416,10 +422,10 @@
                             </ul>
                             <a href="pricing.php" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                         </div>
-                        <!-- End Pricing -->
+                        <!-- End Pricing --
                     </div>
                     <div class="col-sm-4">
-                        <!-- Pricing -->
+                        <!-- Pricing --
                         <div class="pricing">
                             <div class="margin-b-30">
                                 <i class="pricing-icon icon-shield"></i>
@@ -433,10 +439,10 @@
                             </ul>
                             <a href="pricing.php" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
                         </div>
-                        <!-- End Pricing -->
+                        <!-- End Pricing --
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row --
             </div>
         </div>
         <!-- End Pricing -->
@@ -608,7 +614,7 @@
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">BluCyb</a></p>
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">aedificator</a></p>
                     </div>
                 </div>
                 <!--// end row -->

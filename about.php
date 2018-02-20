@@ -2,23 +2,27 @@
 <!-- ==============================
     Project:        Aedificator - rad s poduzetnicima za 3. godinu računarstva u Dubrovniku
     Version:        0.9
-    Author:         KeenThemes
+    Author:         aedificator
     Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+    Email:          support@aedificator.com
+    Follow:         http://www.twitter.com/aedificator
+    Like:           http://www.facebook.com/aedificator
+    Website:        http://www.aedificator.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=aedificator
 ================================== -->
 <html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Metronic "Asentus" Frontend Freebie</title>
+         <title>Aedificator d.o.o ovlašteni inženjer građevinarstva
+		 stručni nadzor nad građenjem (i projektiranjem) 
+		 ovlašteni voditelj građenja
+		 ovlašteni energetski certifikator
+		 </title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+        <meta content="Aedificator" name="description"/>
+        <meta content="BluCyb" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -402,7 +406,7 @@
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">BluCyb</a></p>
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">aedificator</a></p>
                     </div>
                 </div>
                 <!--// end row -->
