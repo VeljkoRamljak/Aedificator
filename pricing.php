@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
+    Project:        Aedificator - rad s poduzetnicima za 3. godinu računarstva u Dubrovniku
+    Version:        0.9
     Author:         KeenThemes
     Primary use:    Corporate, Business Themes.
     Email:          support@keenthemes.com
