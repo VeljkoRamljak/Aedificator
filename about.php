@@ -10,7 +10,7 @@
     Website:        http://www.keenthemes.com
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
-<html lang="en" class="no-js">
+<html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
@@ -161,7 +161,7 @@
                                     <h3>Art Of Coding</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                                     <h3>Responsive Design</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                                     <h3>Feature Reach</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                                     <h3>Useful Documentation</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                     <h3>Fast Delivery</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                                     <h3>Free Plugins</h3>
                                     <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -360,13 +360,13 @@
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Dubrovnik</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39, 
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39,
 																									Čilipi
 																									Konavle
 																									20213
 																									HR</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">+385 99 8274-571</a></li>
-                                
+
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">miroslav.bego.aedif@gmail.com</a></li>
                             </ul>
                             <!-- End List -->

@@ -10,7 +10,7 @@
     Website:        http://www.keenthemes.com
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
-<html lang="en" class="no-js">
+<html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
@@ -100,7 +100,7 @@
                             <div class="service" data-height="height">
                                 <h3>Art Of Coding</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             <div class="service" data-height="height">
                                 <h3>Responsive Design</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                             <div class="service" data-height="height">
                                 <h3>Feature Reach</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             <div class="service" data-height="height">
                                 <h3>Useful Documentation</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <div class="service" data-height="height">
                                 <h3>Fast Delivery</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                             <div class="service" data-height="height">
                                 <h3>Free Plugins</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a href="#" class="content-wrapper-link"></a>    
+                                <a href="#" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>

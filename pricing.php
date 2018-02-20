@@ -10,7 +10,7 @@
     Website:        http://www.keenthemes.com
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
-<html lang="en" class="no-js">
+<html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>

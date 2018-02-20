@@ -10,7 +10,7 @@
     Website:        http://www.keenthemes.com
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
-<html lang="en" class="no-js">
+<html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
@@ -95,7 +95,7 @@
         <div class="section-seperator">
             <div class="content-lg container">
                 <div class="row">
-                    <!-- Contact List 
+                    <!-- Contact List
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">New York</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
@@ -112,7 +112,7 @@
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Dubrovnik</a> <span class="text-uppercase margin-l-20">Sjedište</span></h3>
-                            <p> Močići 39, 
+                            <p> Močići 39,
 								Čilipi
 								Konavle
 								20213
@@ -125,7 +125,7 @@
                     </div>
                     <!-- End Contact List -->
 
-                    <!-- Contact List 
+                    <!-- Contact List
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Singapore</a> <span class="text-uppercase margin-l-20">Finance</span></h3>
@@ -181,13 +181,13 @@
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Dubrovnik</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39, 
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39,
 																									Čilipi
 																									Konavle
 																									20213
 																									HR</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">+385 99 8274-571</a></li>
-                                
+
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">miroslav.bego.aedif@gmail.com</a></li>
                             </ul>
                             <!-- End List -->
