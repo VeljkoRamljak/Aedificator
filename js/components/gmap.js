@@ -30,13 +30,13 @@ window.initMap = function() {
 
   var customMapTypeId = 'custom_style';
 
-  var brooklyn = {lat: 41.850, lng: -73.961};
+  var Konavle = {lat: 41.850, lng: -73.961};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
-    center: brooklyn, // Brooklyn.
+    center: Konavle, // Konavle.
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
@@ -45,9 +45,9 @@ window.initMap = function() {
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">Brooklyn</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">Konavle</h1>'+
     '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
+    '<p>Močići 39, <br> Ćilipi, 20213, <br> Konavle, HR</p>'+
     '</div>'+
     '</div>';
 
@@ -60,8 +60,8 @@ window.initMap = function() {
     map: map,
     clickable: true,
     icon: image,
-    title: 'Brooklyn',
-    position: brooklyn
+    title: 'Konavle',
+    position: Konavle
   });
 
   marker.addListener('click', function() {
