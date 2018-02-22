@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include 'baza.php'; ?>
 <!-- ==============================
     Project:        Aedificator - rad s poduzetnicima za 3. godinu računarstva u Dubrovniku
     Version:        0.9
@@ -108,106 +109,55 @@
 
             <div class="row margin-b-50">
                 <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h3><a href="#">Povećenje energetske učinkovitosti</a> <span class="text-uppercase margin-l-20"><br>Od Projekta do realizacije!</span></h3>
-                    <p>-izrada projektne dokumentacije<br>
-						-snimak postojećeg stanja objekta<br>
-						-tehničko rješenje racionalizacije<br>
-						-izrada troškovnika i predračuna<br>
-						-izrada energetskog certifikata</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+                <?php
+                echo   '<div class="row">';
+
+
+
+                $trica=0;
+                while($redak = mysqli_fetch_assoc($rez_izbornik)) {
+                    $trica++;
+                    //  echo "<h3>".$redak["naslov"]."</h3>"."<br>";
+                    if($trica==3){
+                        echo  '<div class="row">';
+                    }
+                    echo '<div class="col-sm-4 sm-margin-b-50">';
+                    echo  ' <div class="margin-b-20">';
+                    echo    '<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">';
+                    echo      '<img class="img-responsive" src="'.$redak["slika"].'" alt="Our Exceptional Solutions Image">';
+                    echo    '</div>';
+                    echo  ' </div>';
+                    echo  '<h3><a href="#">'.$redak["naslov"].'</a> <span class="text-uppercase margin-l-20"><br>     </span></h3>';
+                    echo      '<p>'.$redak["sazetak"].'</p>';
+                    echo   '<a class="link" href="#">Više</a>';
+                    echo  '</div>';
+                    if($trica==3){
+                        echo  '</div>';
+                        $trica=0;
+                    }
+
+                }?>
                 <!-- End Our Exceptional Solutions -->
 
                 <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Projektiranje, savjetovanje, nadzor</a> <span class="text-uppercase margin-l-20"><br>Pratimo vas od temelja do krova!</span></h4>
-                    <p>-izrada projektne dokumentacije<br>
-						-praćenje radova u svim fazama<br>
-						-savjetovanje i nadzor izvođača<br>
-						-izrada energetskih certifikata</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+
                 <!-- End Our Exceptional Solutions -->
 
                 <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Savjetovanje</a> <span class="text-uppercase margin-l-20"><br>Za povećanje energetske učinkovitostibr<br> poboljšanje fizičkih osobina zgrade</span></h4>
-                    <p>-poboljšanje izolacije fasade<br>
-						-poboljšanje izolacije krovišta><br>
-						-poboljšanje izolacije temelja<br>
-						-zamjena prozora i vrata<br>
-						-korištenje prirodnih izvora</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+
                 <!-- End Our Exceptional Solutions -->
             </div>
             <!--// end row -->
 
-            <div class="row">
-                <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h3><a href="#">Povećenje energetske učinkovitosti</a> <span class="text-uppercase margin-l-20"><br>Od Projekta do realizacije!</span></h3>
-                    <p>-izrada projektne dokumentacije<br>
-						-snimak postojećeg stanja objekta<br>
-						-tehničko rješenje racionalizacije<br>
-						-izrada troškovnika i predračuna<br>
-						-izrada energetskog certifikata</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+
                 <!-- End Our Exceptional Solutions -->
 
                 <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Projektiranje, savjetovanje, nadzor</a> <span class="text-uppercase margin-l-20"><br>Pratimo vas od temelja do krova!</span></h4>
-                    <p>-izrada projektne dokumentacije<br>
-						-praćenje radova u svim fazama<br>
-						-savjetovanje i nadzor izvođača<br>
-						-izrada energetskih certifikata</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+
                 <!-- End Our Exceptional Solutions -->
 
                 <!-- Our Exceptional Solutions -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Our Exceptional Solutions Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Savjetovanje</a> <span class="text-uppercase margin-l-20"><br>Za povećanje energetske učinkovitostibr<br> poboljšanje fizičkih osobina zgrade</span></h4>
-                    <p>-poboljšanje izolacije fasade<br>
-						-poboljšanje izolacije krovišta><br>
-						-poboljšanje izolacije temelja<br>
-						-zamjena prozora i vrata<br>
-						-korištenje prirodnih izvora</p>
-                    <a class="link" href="#">Više</a>
-                </div>
+
                 <!-- End Our Exceptional Solutions -->
             </div>
             <!--// end row -->
@@ -324,7 +274,7 @@
                         <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.com/preview/asentus/">Asentus</a> Theme Powered by: <a class="color-base fweight-700" href="https://www.facebook.com/velja10">aedificator</a></p>
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.hr">Aedificator</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com">keenthemes</a></p>
                     </div>
                 </div>
                 <!--// end row -->
