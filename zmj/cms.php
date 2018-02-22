@@ -59,7 +59,7 @@ if (isset($_GET["opcija"])){
 		'".$_POST["tekst"]."', 
 		'".$_SESSION['ime']."', 
 		NOW(),
-		'img/clanak/".$_POST["fileToUpload"]."',
+		'zmj/uploads/".$_POST["fileToUpload"]."',
 		'".$_POST["hashtag"]."',
 		1,
 		0,

@@ -59,8 +59,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.php">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Aedificator Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Aedificator Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -403,7 +403,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
+                        <img class="footer-logo" src="img/logo.png" alt="Aedificator Logo">
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.hr">Aedificator</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com">keenthemes</a></p>

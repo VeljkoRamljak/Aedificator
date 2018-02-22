@@ -26,7 +26,7 @@ if ($_FILES["fileToUpload"]["size"] > 64000000) { //64mb
 }
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-    && $imageFileType != "gif" ) {
+&& $imageFileType != "gif" ) {
     echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
     $uploadOk = 0;
 }
@@ -43,31 +43,32 @@ if ($uploadOk == 0) {
 }
 ?>
 
-    <!--spojit se na bazu, zapisat u tablicu (npr.galerija)
-    id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
+<!--spojit se na bazu, zapisat u tablicu (npr.galerija) 
+id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 
 <?php //spajanje na bazu
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "stranica";
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "stranica";
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-$sql="INSERT INTO galerija VALUES 
+	// Create connection
+	$conn = mysqli_connect($servername, $username, $password, $dbname);
+	// Check connection
+	if (!$conn) {
+		die("Connection failed: " . mysqli_connect_error());
+	}
+	
+	/*$sql="INSERT INTO clanak VALUES 
 	(NULL, 1, '".$target_file."', '".$_FILES["fileToUpload"]["name"]."', 1, '', '', 1)";
-
-mysqli_query($conn, $sql);
-
-header("Location: galerija.php");
-die();
-
-/*while($redak = mysqli_fetch_assoc($rez_izbornik)) {
-        echo $redak["naziv"]."<br>";
-    }*/
+	
+	mysqli_query($conn, $sql);*/	
+	
+	header("Location: cms.php");
+	die();
+	
+	/*while($redak = mysqli_fetch_assoc($rez_izbornik)) {
+			echo $redak["naziv"]."<br>";
+		}*/	
 ?>
+
