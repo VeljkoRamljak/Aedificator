@@ -1,4 +1,6 @@
 <?php
+include "baza.php";
+session_start();
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
@@ -17,17 +19,30 @@ if(isset($_POST["submit"])) {
 // Check if file already exists
 if (file_exists($target_file)) {
     echo "Sorry, file already exists.";
+    $putin="zmj/uploads/".basename( $_FILES["fileToUpload"]["name"]);
+    $sql9="UPDATE clanak SET
+		slika='$putin'
+		WHERE naslov='".$_SESSION['varname']."'";
+    if (!$rezultat=mysqli_query($conn, $sql9)) {
+        echo "Izmjena članka nije uspjelo, error: " . mysqli_error($conn);
+
+    }else {
+        echo "Sorry, there was an error uploading your file.";
+    }
     $uploadOk = 0;
 }
 // Check file size
 if ($_FILES["fileToUpload"]["size"] > 64000000) { //64mb
     echo "Sorry, your file is too large.";
+
     $uploadOk = 0;
 }
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
     echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+
+
     $uploadOk = 0;
 }
 // Check if $uploadOk is set to 0 by an error
@@ -37,6 +52,14 @@ if ($uploadOk == 0) {
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+        $putin="zmj/uploads/".basename( $_FILES["fileToUpload"]["name"]);
+        $sql9="UPDATE clanak SET
+		slika='$putin'
+		WHERE naslov='".$_SESSION['varname']."'";
+
+        if (!$rezultat=mysqli_query($conn, $sql9)) {
+            echo"Izmjena članka nije uspjelo, error: ".mysqli_error($conn);
+        }
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
@@ -65,19 +88,12 @@ id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 	mysqli_query($conn, $sql);*/
 
 
-include "baza.php";
-session_start();
-print_r(header("Location: cms.php"),$_SESSION['varname']);
-$sql9="UPDATE clanak SET
-		slika='".$_SESSION['kita']."'
-		WHERE naslov='".$_SESSION['varname']."'";
 
-if (!$rezultat=mysqli_query($conn, $sql9)) {
-    echo"Izmjena članka nije uspjelo, error: ".mysqli_error($conn);
-}
 
-	
 
+
+header("Location: cms.php");
+die();
 	/*while($redak = mysqli_fetch_assoc($rez_izbornik)) {
 			echo $redak["naziv"]."<br>";
 		}*/	

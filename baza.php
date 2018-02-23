@@ -19,12 +19,16 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+mysqli_set_charset($conn,"utf8");
+
 $sql = "SELECT * FROM clanak
 	WHERE vidljiv=1;";
 
 if (!$rez_izbornik=mysqli_query($conn, $sql)) {
     echo "Select izbornika nije prošao, error: " . mysqli_error($conn);
 }
+
+
 
 ?>
 
