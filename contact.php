@@ -13,12 +13,14 @@
 <html lang="hr" class="no-js">
     <!-- BEGIN HEAD -->
     <head>
-        <meta charset="utf-8"/>
-         <title>Aedificator d.o.o ovlašteni inženjer građevinarstva 
-		 stručni nadzor nad građenjem (i projektiranjem)
-		 ovlašteni voditelj građenja 
-		 ovlašteni energetski certifikator
-		 </title>
+        <meta charset="utf-8">
+        <meta name="Description" CONTENT="Author: Miroslav Bego Aedificator d.o.o Ovlašteni inženjer građevinarstva -Stručni nadzor nad građenjem (i projektiranjem) -Ovlašteni voditelj građenja -Ovlašteni energetski certifikator">
+        <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
+        <meta name="google-site-verification" content="google849208de0dd43711.html"/>
+        <meta name="robots" content="noindex,nofollow">
+
+        <title>AEDIFICATOR d.o.o Ovlašteni inženjer građevinarstva -Stručni nadzor nad građenjem (i projektiranjem) -Ovlašteni voditelj građenja -Ovlašteni energetski certifikator -Miroslav Bego</title>
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="Aedificator" name="description"/>
