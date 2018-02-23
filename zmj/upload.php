@@ -47,7 +47,7 @@ if ($uploadOk == 0) {
 id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 
 <?php //spajanje na bazu
-	$servername = "localhost";
+	/*$servername = "localhost";
 	$username = "root";
 	$password = "";
 	$dbname = "stranica";
@@ -59,10 +59,10 @@ id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 		die("Connection failed: " . mysqli_connect_error());
 	}
 	
-	/*$sql="INSERT INTO clanak VALUES 
+	$sql="INSERT INTO galerija VALUES 
 	(NULL, 1, '".$target_file."', '".$_FILES["fileToUpload"]["name"]."', 1, '', '', 1)";
 	
-	mysqli_query($conn, $sql);*/	
+	mysqli_query($conn, $sql);*/
 	
 	header("Location: cms.php");
 	die();

@@ -48,6 +48,8 @@ if (isset($_GET["opcija"])){
 	if ($_GET["opcija"]=="dodaj"){
 
 
+
+	
 		
 		$sql7="INSERT INTO clanak 
 		VALUES(
@@ -59,18 +61,21 @@ if (isset($_GET["opcija"])){
 		'".$_POST["tekst"]."', 
 		'".$_SESSION['ime']."', 
 		NOW(),
-		'zmj/uploads/".$_POST["fileToUpload"]."',
+		'',
 		'".$_POST["hashtag"]."',
 		1,
 		0,
 		1,
 		'".$_SESSION['id_autor']."'
 		);";
-		
+
+
+
 		if (!$rezultat=mysqli_query($conn, $sql7)) {
 		echo"Dodavanje članka nije uspjelo, error: ".mysqli_error($conn);
 		}
-
+        $_SESSION['varname'] = $_POST["naslov"];
+		header("Location: uploadslika.php");
 
 	}
 		//$redak_clanak=mysqli_fetch_assoc($rezultat);
@@ -298,11 +303,7 @@ if (isset($_GET["opcija"])){
 									}
 									?>
 									</textarea>
-                            <form action="upload.php" method="post" enctype="multipart/form-data">
-                                Select image to upload:
-                                <input type="file" name="fileToUpload" id="fileToUpload">
-                                <input type="submit" value="Upload Image" name="submit">
-                            </form>
+                            
 								</p>
 								
 								<!--<p class="inline-field">
@@ -330,7 +331,8 @@ if (isset($_GET["opcija"])){
 							<?php 
 								if ($edit==1){
 									echo '<input type="submit" class="button" value="IZMIJENI" />';
-								}
+								}else
+									echo '<input type="submit" class="button" value="DODAJ" />';
 
 							?>
 							
