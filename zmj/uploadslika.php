@@ -8,18 +8,7 @@
     <input type="submit" value="Upload Image" name="submit">
 </form>
 
-<?php
-include "baza.php";
 
-
-$sql9="UPDATE clanak SET 
-		slika='".$_POST["fileToUpload"]."', 
-		WHERE naslov='".$_SESSION['varname']."'";
-
-if (!$rezultat=mysqli_query($conn, $sql9)) {
-    echo"Izmjena članka nije uspjelo, error: ".mysqli_error($conn);
-}
-?>
 
 </body>
 </html>

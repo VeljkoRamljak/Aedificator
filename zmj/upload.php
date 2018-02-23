@@ -41,12 +41,12 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file.";
     }
 }
-?>
 
+/*
 <!--spojit se na bazu, zapisat u tablicu (npr.galerija) 
 id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 
-<?php //spajanje na bazu
+ //spajanje na bazu
 	/*$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -63,10 +63,21 @@ id_slike, id_galerije i put (target_file, npr.uploads/slika.jpg)-->
 	(NULL, 1, '".$target_file."', '".$_FILES["fileToUpload"]["name"]."', 1, '', '', 1)";
 	
 	mysqli_query($conn, $sql);*/
+
+
+include "baza.php";
+session_start();
+print_r(header("Location: cms.php"),$_SESSION['varname']);
+$sql9="UPDATE clanak SET
+		slika='".$_SESSION['kita']."'
+		WHERE naslov='".$_SESSION['varname']."'";
+
+if (!$rezultat=mysqli_query($conn, $sql9)) {
+    echo"Izmjena članka nije uspjelo, error: ".mysqli_error($conn);
+}
+
 	
-	header("Location: cms.php");
-	die();
-	
+
 	/*while($redak = mysqli_fetch_assoc($rez_izbornik)) {
 			echo $redak["naziv"]."<br>";
 		}*/	
