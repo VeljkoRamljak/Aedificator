@@ -600,7 +600,7 @@ fieldset[disabled] .btn-theme {
   background: rgba(81, 87, 105, 0);
 }
 
-/* Navbar Logo */
+/* Navbar logo */
 .header .logo {
   width: 100px;
   height: 100px;
@@ -740,7 +740,7 @@ fieldset[disabled] .btn-theme {
   .header .menu-container:after {
     clear: both;
   }
-  /* Logo */
+  /* logo */
   .header .logo .logo-img-main {
     display: none;
   }

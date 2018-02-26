@@ -16,7 +16,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="Description" CONTENT="Author: Miroslav Bego Aedificator d.o.o Ovlašteni inženjer građevinarstva -Stručni nadzor nad građenjem (i projektiranjem) -Ovlašteni voditelj građenja -Ovlašteni energetski certifikator">
-        <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
         <meta name="google-site-verification" content="google849208de0dd43711.html"/>
         <meta name="robots" content="noindex,nofollow">
 
@@ -59,14 +58,14 @@
                             <span class="toggle-icon"></span>
                         </button>
 
-                        <!-- Logo -->
+                        <!-- logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.php">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Aedificator Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Aedificator Logo">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Aedificator logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Aedificator logo">
                             </a>
                         </div>
-                        <!-- End Logo -->
+                        <!-- End logo -->
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -103,8 +102,8 @@
         <div class="content-lg container">
             <div class="row margin-b-40">
                 <div class="col-sm-6">
-                    <h2>Naša iznimna rješenja</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                    <h2>Naša rješenja</h2>
+                    <p>Tvrtka Aedificator d.o.o. može Vam svojim iskustvom i stručnošću olakšati pripremu gradnje i samu gradnju vašeg objekta od prvih koraka do useljenja, a uz vrhunsku kvalitetu obavljenih radova znatno skratiti vrijeme potrebno za sve procedure i smanjiti nepotrebne troškove!</p>
                 </div>
             </div>
             <!--// end row -->
@@ -131,7 +130,7 @@
                     echo  ' </div>';
                     echo  '<h3><a href="#">'.$redak["naslov"].'</a> <span class="text-uppercase margin-l-20"><br>     </span></h3>';
                     echo      '<p>'.$redak["sazetak"].'</p>';
-                    echo   '<a class="link" href="#">Više</a>';
+                   /* echo   '<a class="link" href="#">Više</a>'; */
                     echo  '</div>';
                     if($trica==3){
                         echo  '</div>';
@@ -166,35 +165,35 @@
         </div>
         <!-- End Our Exceptional Solutions -->
 
-        <!-- Clients -->
+        <!-- Clients --
         <div class="bg-color-sky-light">
             <div class="content-lg container">
-                <!-- Swiper Clients -->
+                <!-- Swiper Clients --
                 <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
+                    <!-- Swiper Wrapper --
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients logo">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients logo">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients logo">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients logo">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients logo">
                         </div>
                         <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients logo">
                         </div>
                     </div>
-                    <!-- End Swiper Wrapper -->
+                    <!-- End Swiper Wrapper --
                 </div>
-                <!-- End Swiper Clients -->
+                <!-- End Swiper Clients --
             </div>
         </div>
         <!-- End Clients -->
@@ -206,9 +205,9 @@
                     <div class="ver-center">
                         <div class="ver-center-aligned">
                             <div class="promo-section-col">
-                                <h2>Our Clients</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                                <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
+                                <h2>Klijeni</h2>
+                                <p>Iskustvo, fleksibilnost i inovativnost u gradnji prepoznali su brojni zadovoljni klijenti i poslovni partneri. Preporuka su za sve navedene usluge</p>
+
                             </div>
                         </div>
                     </div>
@@ -230,9 +229,7 @@
                         <div class="col-sm-2 sm-margin-b-50">
                          <!-- Contact List -->
                              <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
+
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Dubrovnik</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39,
 																									Čilipi
@@ -247,21 +244,18 @@
                         </div>
                         <div class="col-sm-4 sm-margin-b-30">
                          <!-- Contact List -->
-                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
-                            </ul>
+
                             <!-- End List -->
                         </div>
                         <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Pošaljite nam upit</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                            <form action="form_process.php" method="POST" enctype="multipart/form-data">
+                                <h2 class="color-white">Pošaljite nam upit</h2>
+                                <input name="name" type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
+                                <input name="email" type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
+                                <input name="phone" type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
+                                <textarea name="message" class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase" href="form_process">Submit</button>
+                            </form>
                         </div>
                     </div>
                     <!--// end row -->
@@ -273,7 +267,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Aedificator Logo">
+                        <img class="footer-logo" src="img/logo.png" alt="Aedificator logo">
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.hr">Aedificator</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com">keenthemes</a></p>

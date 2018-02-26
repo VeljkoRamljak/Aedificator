@@ -95,20 +95,20 @@ if (isset($_GET["opcija"])){
 <!-- Header -->
 <div id="header">
 	<div class="shell">
-		<!-- Logo + Top Nav -->
+		<!-- logo + Top Nav -->
 		<div id="top">
 			<h1><a href="#">Forma za administratora</a></h1>
 			<div id="top-navigation">
-				<a href="#">Log out</a>
+				<a href="logout.php">Log out</a>
 			</div>
 		</div>
-		<!-- End Logo + Top Nav -->
+		<!-- End logo + Top Nav -->
 		
 		<!-- Main Nav -->
 		<div id="navigation">
 			<ul>
 			    <li><a href="#" class="active"><span>Svi članci</span></a></li>
-			    <li><a href="#"><span></span>Novi članak</a></li>
+			   <!-- <li><a href="#"><span></span>Novi članak</a></li>
 			    <li><a href="#"><span>Fotogalerija</span></a></li>
 			</ul>
 		</div>

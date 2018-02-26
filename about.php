@@ -15,7 +15,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="Description" CONTENT="Author: Miroslav Bego Aedificator d.o.o Ovlašteni inženjer građevinarstva -Stručni nadzor nad građenjem (i projektiranjem) -Ovlašteni voditelj građenja -Ovlašteni energetski certifikator">
-        <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
         <meta name="google-site-verification" content="google849208de0dd43711.html"/>
         <meta name="robots" content="noindex,nofollow">
 
@@ -58,14 +57,14 @@
                             <span class="toggle-icon"></span>
                         </button>
 
-                        <!-- Logo -->
+                        <!-- logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.php">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Aedificator Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Aedificator Logo">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Aedificator logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Aedificator logo">
                             </a>
                         </div>
-                        <!-- End Logo -->
+                        <!-- End logo -->
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -99,7 +98,7 @@
 
         <!--========== PAGE LAYOUT ==========-->
         <!-- Features -->
-        <div class="section-seperator">
+        <!--<div class="section-seperator">
             <div class="content-lg container">
                 <div class="row">
                     <div class="col-sm-4 sm-margin-b-50">
@@ -126,14 +125,14 @@
                 </div>
                 <!--// end row -->
             </div>
-        </div>
+        </div>-->
         <!-- End Features -->
 
         <!-- About -->
         <div class="content-lg container">
             <div class="row margin-b-20">
                 <div class="col-sm-6">
-                    <h2>About</h2>
+                    <h2>O nama</h2>
                 </div>
             </div>
             <!--// end row -->
@@ -141,9 +140,17 @@
             <div class="row">
                 <div class="col-sm-7 sm-margin-b-50">
                     <div class="margin-b-30">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enimet minim veniam magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.</p>
+                       <p> Dobrodošli na našu stranicu!
+                        Okrenuti izazovima današnjice nastojimo se
+                        prilagoditi tržištu. Paletom naših djelatnosti
+                        omogućavamo Vam započinjanje i završetak
+                        svih poslova vezanih uz kvadrate Vašeg doma.
+                        Uvažavajući Vaše zahtjeve uspješno završavamo
+                        povjerene poslove. Nadamo se uspješnoj suradnji!<br>
+                        S poštovanjem<br>
+                        Miroslav Bego, ovlašteni inženjer građevinarstva</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.</p>
+
                 </div>
                 <div class="col-sm-4 col-sm-offset-1">
                     <img class="img-responsive" src="img/640x380/01.jpg" alt="Our Office">
@@ -153,7 +160,7 @@
         </div>
         <!-- End About -->
 
-        <!-- Service -->
+        <!-- Service --
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
                 <div class="row row-space-1 margin-b-2">
@@ -200,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row --
 
                 <div class="row row-space-1">
                     <div class="col-sm-4 sm-margin-b-2">
@@ -246,20 +253,20 @@
                         </div>
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row --
             </div>
         </div>
         <!-- End Service -->
 
-        <!-- Testimonials -->
+        <!-- Testimonials --
         <div class="content-lg container">
             <div class="row">
                 <div class="col-sm-9">
                     <h2>Notes From CEO</h2>
 
-                    <!-- Swiper Testimonials -->
+                    <!-- Swiper Testimonials --
                     <div class="swiper-slider swiper-testimonials">
-                        <!-- Swiper Wrapper -->
+                        <!-- Swiper Wrapper --
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <blockquote class="blockquote">
@@ -286,17 +293,17 @@
                         </div>
                         <!-- End Swiper Wrapper -->
 
-                        <!-- Pagination -->
+                        <!-- Pagination --
                         <div class="swiper-testimonials-pagination"></div>
                     </div>
-                    <!-- End Swiper Testimonials -->
+                    <!-- End Swiper Testimonials --
                 </div>
             </div>
-            <!--// end row -->
+            <!--// end row --
         </div>
         <!-- End Testimonials -->
 
-        <!-- Team -->
+        <!-- Team --
         <div class="bg-color-sky-light">
             <div class="content-lg container">
                 <div class="row margin-b-40">
@@ -305,10 +312,10 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
                     </div>
                 </div>
-                <!--// end row -->
+                <!--// end row --
 
                 <div class="row">
-                    <!-- Team -->
+                    <!-- Team --
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="bg-color-white margin-b-20">
                             <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -321,7 +328,7 @@
                     </div>
                     <!-- End Team -->
 
-                    <!-- Team -->
+                    <!-- Team --
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="bg-color-white margin-b-20">
                             <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -334,7 +341,7 @@
                     </div>
                     <!-- End Team -->
 
-                    <!-- Team -->
+                    <!-- Team --
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="bg-color-white margin-b-20">
                             <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
@@ -345,9 +352,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
                         <a class="link" href="#">Više</a>
                     </div>
-                    <!-- End Team -->
+                    <!-- End Team --
                 </div>
-                <!--// end row -->
+                <!--// end row --
             </div>
         </div>
         <!-- End Team -->
@@ -362,9 +369,7 @@
                         <div class="col-sm-2 sm-margin-b-50">
                          <!-- Contact List -->
                              <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
+
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Dubrovnik</a></li>
                                 <li class="footer-list-item"><a class="footer-list-link" href="#">Močići 39,
 																									Čilipi
@@ -379,22 +384,20 @@
                         </div>
                         <div class="col-sm-4 sm-margin-b-30">
                          <!-- Contact List -->
-                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
-                            </ul>
+
                             <!-- End List -->
                         </div>
                         <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Pošaljite nam upit</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                            <form action="form_process.php" method="POST" enctype="multipart/form-data">
+                                <h2 class="color-white">Pošaljite nam upit</h2>
+                                <input name="name" type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
+                                <input name="email" type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
+                                <input name="phone" type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
+                                <textarea name="message" class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase" href="form_process">Submit</button>
+                            </form>
                         </div>
+                    </div>
                     </div>
                     <!--// end row -->
                 </div>
@@ -405,7 +408,7 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Aedificator Logo">
+                        <img class="footer-logo" src="img/logo.png" alt="Aedificator logo">
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0"><a class="color-base fweight-700" href="http://aedificator.hr">Aedificator</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com">keenthemes</a></p>
